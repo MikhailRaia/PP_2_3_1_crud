@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CRUD:war">
+    <output-path>$PROJECT_DIR$/PP_2_3_1_crud/PP_2_3_1_crud-master/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CRUD</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring_mvc.war">
+      <element id="artifact" artifact-name="CRUD:war exploded" />
+    </root>
+  </artifact>
+</component>
